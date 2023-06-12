@@ -3,7 +3,6 @@ from pydantic import BaseModel
 
 # Create class to address elements without 'ISO3166-2-lvl4'
 class Address(BaseModel):
-    historic: str
     house_number: str
     road: str
     neighbourhood: str
